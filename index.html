@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waleed - CS Student Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Waleed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="favorites.html">Favorites</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg" style="background-image: url('assets/img/header-bg.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 hero-content" data-aos="fade-up">
+                    <h1>Waleed Barghouthi</h1>
+                    <p>Palestinian Computer Science Student at ELTE University, Budapest</p>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn btn-primary">View My Work</a>
+                        <a href="about.html" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section Preview -->
+    <section class="section-padding" id="about-preview">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>About Me</h2>
+                <p>A passionate Computer Science student with a focus on web development and AI</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="about-img">
+                        <img src="assets/img/about/1.jpg" alt="About Me" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="about-content">
+                        <h3>Palestinian CS Student at ELTE University</h3>
+                        <p>I'm Waleed, a final-year Computer Science student at Eötvös Loránd University (ELTE) in Budapest. Originally from Palestine, I've been passionate about technology since childhood, which led me to pursue higher education in computer science.</p>
+                        <p>Throughout my academic journey, I've developed expertise in web development, data structures, algorithms, and artificial intelligence. I believe in creating technology that makes a positive impact on society.</p>
+                        <div class="about-info">
+                            <div class="about-info-item">
+                                <strong>Name:</strong> Waleed Barghouthi
+                            </div>
+                            <div class="about-info-item">
+                                <strong>Email:</strong> waleedsrb@gmail.com
+                            </div>
+                            <div class="about-info-item">
+                                <strong>Degree:</strong> BSc in Computer Science
+                            </div>
+                            <div class="about-info-item">
+                                <strong>Location:</strong> Budapest, Hungary
+                            </div>
+                        </div>
+                        <a href="about.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section Preview -->
+    <section class="section-padding bg-light" id="skills-preview">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>My Skills</h2>
+                <p>Technical expertise and competencies I've developed during my studies</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Proficient in HTML, CSS, JavaScript, and modern frameworks like React and Bootstrap.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Database Management</h3>
+                        <p>Experience with SQL and NoSQL databases, including MySQL, PostgreSQL, and MongoDB.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Artificial Intelligence</h3>
+                        <p>Knowledge of machine learning algorithms and neural networks using Python and TensorFlow.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5" data-aos="fade-up">
+                <a href="services.html" class="btn btn-primary">View All Skills</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section Preview -->
+    <section class="section-padding" id="projects-preview">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>My Projects</h2>
+                <p>A selection of my recent work and academic projects</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img/portfolio/01-thumbnail.jpg" alt="Project 1" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="projects.html"><i class="fas fa-link"></i></a>
+                                <a href="assets/img/portfolio/01-full.jpg"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Smart Home Automation</h3>
+                            <p>IoT, Raspberry Pi, Python</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img/portfolio/02-thumbnail.jpg" alt="Project 2" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="projects.html"><i class="fas fa-link"></i></a>
+                                <a href="assets/img/portfolio/02-full.jpg"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>React, Node.js, MongoDB</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img/portfolio/03-thumbnail.jpg" alt="Project 3" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="projects.html"><i class="fas fa-link"></i></a>
+                                <a href="assets/img/portfolio/03-full.jpg"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI Image Recognition</h3>
+                            <p>Python, TensorFlow, OpenCV</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5" data-aos="fade-up">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Favorites Section Preview -->
+    <section class="section-padding bg-light" id="favorites-preview">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>My Favorites</h2>
+                <p>Things I enjoy outside of coding and academics</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="favorite-card">
+                        <div class="favorite-img">
+                            <img src="assets/img/about/2.jpg" alt="Favorite 1" class="img-fluid">
+                        </div>
+                        <div class="favorite-content">
+                            <h3>Middle Eastern Cuisine</h3>
+                            <p>I love cooking traditional Palestinian dishes like Maqluba and Knafeh.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="favorite-card">
+                        <div class="favorite-img">
+                            <img src="assets/img/about/3.jpg" alt="Favorite 2" class="img-fluid">
+                        </div>
+                        <div class="favorite-content">
+                            <h3>Football</h3>
+                            <p>Playing and watching football is one of my favorite pastimes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="favorite-card">
+                        <div class="favorite-img">
+                            <img src="assets/img/about/4.jpg" alt="Favorite 3" class="img-fluid">
+                        </div>
+                        <div class="favorite-content">
+                            <h3>Travel & Photography</h3>
+                            <p>Exploring new places and capturing moments through my camera lens.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5" data-aos="fade-up">
+                <a href="favorites.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h3>Waleed Barghouthi</h3>
+                    <p>A passionate Computer Science student from Palestine, currently studying at ELTE University in Budapest, Hungary.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="favorites.html">Favorites</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Budapest, Hungary</li>
+                        <li><i class="fas fa-envelope"></i> waleedsrb@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +36 20 123 4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Waleed Barghouthi. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
